@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>        
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src * data: https://ssl.gstatic.com 'unsafe-inline' 'unsafe-eval';">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,600&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d6e14ccc15.js" crossorigin="anonymous"></script>
+        <title>Charity Food</title>
+    </head>
+    <body>
+
+        <header class="header">
+            Charity Food
+        </header>
+
+        <section class="views">
+            <div class="panel center" id="view-map"></div>
+            <div class="panel right" id="view-favoris"></div>
+        </section>
+
+        <nav class="nav">
+            <a href="map" class="nav-item nav-item-actif">
+                <i class="fas fa-map-marked-alt"></i>
+                <div>Carte</div>
+            </a>
+            <a href="favoris" class="nav-item">
+                <i class="fas fa-heart"></i>
+                <div>Favoris</div>
+            </a>
+        </nav>
+
+
+        <div class="moreInfosWindow" id="organism-popup">
+            <div id="organism-popup-content"></div>
+            <button class="close_moreInfosWindow" id="organism-popup-close-btn"><i class="fas fa-times"></i></button>
+        </div>
+
+
+
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8eyU1OfDh9ZwqFFaaImGHeGm9_F8jXcE"></script>
+        <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-firestore.js"></script>
+        <!-- <script type="text/javascript" src="js/index.js"></script> -->
+        <script type="text/javascript" src="js/dbFirebase.js"></script>
+        <script type="text/javascript" src="js/dbSQLite.js"></script>
+        <script type="text/javascript" src="js/views.js"></script>
+        <script type="text/javascript" src="js/index2.js"></script>
+    </body>
+</html>

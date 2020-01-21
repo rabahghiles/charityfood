@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.rabahghiles.cordovaprojects" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.geolocation.Geolocation" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>CharityFood</name>
+    <description>
+        Une application qui vous aide à trouver des établissements qui distribuent de la nourriture gratuitement prés de chez vous
+    </description>
+    <author email="rabahghiles@gmail.com" href="https://rabahghiles.github.io">Rabah GHILES</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <icon density="ldpi" src="res/android/logo.png" />
+    <icon density="mdpi" src="res/android/logo.png" />
+    <icon density="hdpi" src="res/android/logo.png" />
+    <icon density="xhdpi" src="res/android/logo.png" />
+    <preference name="loglevel" value="DEBUG" />
+</widget>

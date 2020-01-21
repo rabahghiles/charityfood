@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "CharityFood",
+  "short_name": "CharityFood",
+  "version": "com.rabahghiles.cordovaprojects",
+  "description": "Une application qui vous aide à trouver des établissements qui distribuent de la nourriture gratuitement prés de chez vous",
+  "author": "Rabah GHILES",
+  "icons": [],
+  "start_url": "index.html"
+}
